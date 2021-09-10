@@ -1,0 +1,147 @@
+.container {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 3rem;
+} 
+.option-con {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(81, 83, 85, 0.25);
+    background-color: #F3F2F2;;
+}
+
+.option-con:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #6a149ba6;;
+    transform: translateY(-0.1rem);
+    transition: transform 120ms;
+}
+
+.options {
+    padding: 1.5rem 2.5rem;
+    background-color: #6a149b;;
+    color: white;
+    text-align: center;
+}
+
+.choosen {
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+    background-color: #6a149b;
+    color: white;
+}
+
+#icon {
+    /* background: rgb(113, 170, 243); */
+    /* padding:9rem; */
+    padding: 4rem 0rem 1rem 4rem;
+    margin-top: 3rem;
+    /* margin-bottom: 3rem; */
+}
+
+#timer {
+    /* background: rgba(141, 182, 243, 0.74); */
+    padding: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+#timer p {
+    /* padding: 4rem;  */
+    /* margin-top: 4rem; */
+    /* margin-bottom: 3rem; */
+    /* background: #396e9c; */
+    /* margin: 0;
+    padding: 0; */
+    font-size: 3vh;
+    padding: 0;
+}
+
+#icon p {
+    font-size: 3vh;
+}
+
+#icon i {
+    padding: 0 3rem 0 2rem;
+}
+
+.correct {
+    /* background-color: rgb(7, 124, 37); */
+}
+
+.incorrect {
+    /* background-color: rgb(138, 14, 14); */
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    padding-top: 0.9rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #56a5eb;
+    margin-top: 1.5rem;
+}
+
+#progress-bar-full {
+    height: 3.4rem;
+    /* background-color: #56a5eb; */
+    width: 0%;
+}
+
+#loader {
+    border: 1.6rem solid rgb(248, 245, 245);
+    border-top: 1.6rem solid #6a149b;;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.btm{
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    width: 22rem;
+    text-align: center;
+    /* border: 0.1rem solid #56a5eb; */
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #0c161f;
+    /* background-color: rgb(176, 228, 248); */
+}
+
+.btm:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 120ms;
+}
